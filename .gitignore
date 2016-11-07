@@ -1,0 +1,6 @@
+proba*.*
+test.*
+composer.*
+*.swp
+*.swo
+vendor/
