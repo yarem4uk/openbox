@@ -3,7 +3,7 @@ XXkb.mainwindow.label.enable:  yes
 XXkb.mainwindow.enable:  yes
 XXkb.mainwindow.appicon:  no
 XXkb.mainwindow.geometry:  26x26+8+0
-XXkb.mainwindow.label.background: #323231
+XXkb.mainwindow.label.background: #1d1e20
 XXkb.mainwindow.label.foreground: grey
 XXkb.mainwindow.label.font: -misc-*-r-*-26-* 
 XXkb.mainwindow.label.text.1: EN
