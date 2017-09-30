@@ -177,7 +177,7 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="A-p">
+    <keybind key="W-f">
       <action name="GoToDesktop">
         <to>next</to>
       </action>
@@ -254,7 +254,7 @@
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
-    <keybind key="A-q">
+    <keybind key="W-q">
       <action name="Close"/>
     </keybind>
     <keybind key="W-space">
@@ -339,12 +339,12 @@
         <command>oblogout</command>
       </action>
     </keybind>
-    <keybind key="A-1">
+    <keybind key="W-c">
       <action name="Execute">
         <command>chromium</command>
       </action>
     </keybind>
-    <keybind key="A-w">
+    <keybind key="W-w">
       <action name="Execute">
         <command>firefox</command>
       </action>
@@ -354,20 +354,30 @@
         <command>thunar</command>
       </action>
     </keybind>
-    <keybind key="A-t">
+    <keybind key="W-r">
+      <action name="Execute">
+        <command>gmrun</command>
+      </action>
+    </keybind>
+    <keybind key="W-t">
       <action name="Execute">
         <command>xfce4-terminal -e tmux</command>
       </action>
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+          <command>/usr/bin/libreoffice --calc</command>
       </action>
     </keybind>
+    <!-- <keybind key="W-e"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <startupnotify> -->
+    <!--       <enabled>true</enabled> -->
+    <!--       <name>Konqueror</name> -->
+    <!--     </startupnotify> -->
+    <!--     <command>kfmclient openProfile filemanagement</command> -->
+    <!--   </action> -->
+    <!-- </keybind> -->
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
