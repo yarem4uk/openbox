@@ -21,7 +21,7 @@ setxkbmap -option ctrl:nocaps
 
 setxkbmap -layout us,ru -variant -option grp:ctrl_shift_toggle,terminate:ctrl_alt_bksp &
 
-xrandr --output LVDS --off
+#xrandr --output LVDS --off
 
 nitrogen --restore&
 
@@ -29,4 +29,4 @@ nitrogen --restore&
 tint2 &
 xxkb &
 pnmixer &
-pytyle &
+#pytyle &

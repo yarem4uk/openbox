@@ -2,11 +2,12 @@ XXkb.mainwindow.type:  tray
 XXkb.mainwindow.label.enable:  yes
 XXkb.mainwindow.enable:  yes
 XXkb.mainwindow.appicon:  no
-XXkb.mainwindow.geometry:  26x26+8+0
+XXkb.mainwindow.geometry:  16x16+8+9
+#XXkb.mainwindow.geometry:  16x16+0+0
 XXkb.mainwindow.label.background: #1d1e20
 XXkb.mainwindow.label.foreground: grey
-XXkb.mainwindow.label.font: -misc-*-r-*-24-* 
-#XXkb.mainwindow.label.font: -misc-*-r-*-16-* 
+#XXkb.mainwindow.label.font: -misc-*-r-*-22-* 
+XXkb.mainwindow.label.font: -misc-*-r-*-14-* 
 XXkb.mainwindow.label.text.1: EN
 XXkb.mainwindow.label.text.2: RU
 XXkb.controls.add_when_start: yes

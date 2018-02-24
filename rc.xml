@@ -42,8 +42,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Numix</name>
-    <titleLayout>NLSIMC</titleLayout>
+    <name>Numix-Blue</name>
+    <titleLayout>LSIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -57,8 +57,8 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>SFNS Display</name>
-      <size>10</size>
+      <name>Ubuntu Semi-Bold</name>
+      <size>11</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -66,7 +66,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>SFNS Display</name>
+      <name>Ubuntu Light</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -75,7 +75,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>SFNS Display</name>
+      <name>Ubuntu</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -84,7 +84,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>SFNS Display</name>
+      <name>Ubuntu</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -93,7 +93,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>SFNS Display</name>
+      <name>Ubuntu</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -102,7 +102,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>SFNS Display</name>
+      <name>Ubuntu</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -123,8 +123,8 @@
     <number>2</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>(main)</name>
-      <name>(developer)</name>
+      <name>main</name>
+      <name>developer</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -366,7 +366,7 @@
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-          <command>/usr/bin/libreoffice --calc</command>
+        <command>/usr/bin/libreoffice --calc</command>
       </action>
     </keybind>
     <!-- <keybind key="W-e"> -->
