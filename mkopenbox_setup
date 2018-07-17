@@ -1,0 +1,11 @@
+#!/bin/sh
+files="autostart environment menu.xml rc.xml"
+mkdir -p ~/.config/openbox
+
+for file in $files
+do 
+  echo "Copy $file in openbox directory."
+  cp $file ~/.config/openbox/
+done
+
+echo '...done'

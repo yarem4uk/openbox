@@ -1,0 +1,4 @@
+#!/bin/sh
+pacman -S xorg-server xorg-xinit xorg-apps mesa openbox sddm alsa-lib alsa-utils asla-oss alsa-plugins ttf-liberation ttf-dejavu ttf-droid
+sudo systemctl enable sddm.service
+sudo systemctl reboot
