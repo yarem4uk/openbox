@@ -27,6 +27,6 @@ nitrogen --restore&
 
 # панель tint2
 tint2 &
-xxkb &
+# xxkb &
 pnmixer &
-#pytyle &
+# pytyle &
