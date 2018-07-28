@@ -1,2 +1,0 @@
-#!/bin/sh
-git clone https://github.com/yarem4uk/dotfiles.git ~/dotfiles

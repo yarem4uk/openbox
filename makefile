@@ -1,6 +1,8 @@
-install_openbox:
-	./arch_install_x
-install_progam:
-	./install_program
-install_dotfiles:
-	./install_dotfiles
+gtk:
+	./gkt.sh
+xorg:
+	./xorg.sh
+openbox:
+	./openbox.sh
+progarm:
+	./program.sh

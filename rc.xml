@@ -42,8 +42,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Clone</name>
-    <titleLayout>LSIMC</titleLayout>
+    <name>Arc-Dark</name>
+    <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -58,7 +58,7 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Ubuntu Semi-Bold</name>
-      <size>11</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -126,7 +126,7 @@
       <name>main</name>
       <name>developer</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -359,14 +359,13 @@
         <command>gmrun</command>
       </action>
     </keybind>
+    <!-- <keybind key="W-t"> -->
+    <!--   <action name="Execute"> -->
+    <!--     <command>xfce4-terminal -e tmux</command> -->
+    <!--   </action> -->
     <keybind key="W-t">
       <action name="Execute">
-        <command>xfce4-terminal -e tmux</command>
-      </action>
-    </keybind>
-    <keybind key="W-j">
-      <action name="Execute">
-        <command>urxvt -e tmux</command>
+        <command>termite -e tmux</command>
       </action>
     </keybind>
     <keybind key="W-e">
@@ -745,7 +744,10 @@
   </menu>
   <applications>
     <!-- <application class="*"> -->
-    <application name="urxvt">
+    <application name="termite">
+      <decor>no</decor>
+    </application>
+    <application name="thunar">
       <decor>no</decor>
     </application>
     <!--

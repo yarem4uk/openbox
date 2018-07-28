@@ -1,2 +1,0 @@
-#!/bin/sh
-yaourt -S  thunar gvfs thunar-volman thunar-archive-plugin file-roller p7zip unrar nitrogen obmenu obconf lxappearance polkit-gnome ntfs-3g flashplugin gmrun sqlite whois tint2 xxkb pnmixer oblogout
