@@ -30,3 +30,4 @@ tint2 &
 # xxkb &
 pnmixer &
 # pytyle &
+compton --config ~/.config/compton.conf -b &

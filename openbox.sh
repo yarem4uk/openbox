@@ -14,7 +14,7 @@ do
 done
 
 ln -s $dir/titn2rc $openbox/tint2/tint2rc
-cp $dir/sddm.conf /etc/sddm.conf
-cp $dir/oblogout.conf /etc/oblogout.conf
+sudo cp $dir/sddm.conf /etc/sddm.conf
+sudo cp $dir/oblogout.conf /etc/oblogout.conf
 
 echo '...all done'

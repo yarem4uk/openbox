@@ -1,8 +1,8 @@
 gtk:
-	./gkt.sh
+	./gtk.sh
 xorg:
 	./xorg.sh
 openbox:
 	./openbox.sh
-progarm:
+program:
 	./program.sh
