@@ -781,7 +781,9 @@ Copy the file to $HOME/.config/openbox/ instead. -->
             <decor>no</decor>
           </application>
           <application name="termite">
-            <desktop>1</desktop>
+            <desktop>2</desktop>
+            <maximized>yes</maximized>
+            <focus>yes</focus>
             <position>
               <x>center</x>
               <y>center</y>
